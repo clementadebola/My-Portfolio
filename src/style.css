@@ -258,6 +258,7 @@ button:focus {
   position: relative;
   z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  /* background-image: linear-gradient(to left, rgb(7, 10, 212), rgb(20 15 35)); */
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
