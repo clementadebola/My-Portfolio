@@ -29,7 +29,7 @@ function Projects() {
               title="Youtube Clone"
               description="Its a simple youtube clone, that has the simple functunality of a youtube. its able to search, watch video on site."
               ghLink="https://github.com/clementadebola/Youtube-Clone.git"    
-              demoLink="https://chatify-49.web.app/"
+              demoLink="https://zgyoutubeclone.netlify.app/"
             />
           </Col>
 
