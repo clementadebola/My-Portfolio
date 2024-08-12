@@ -12,7 +12,7 @@
 
 .bot-wrapper {
   position: fixed;
-  bottom: 50px;
+  bottom: 20px;
   right: 40px;
   z-index: 1000;
 }

@@ -22,7 +22,7 @@ const HireMe = () => {
       alert('Please provide a valid message!');
       return;
     }
-    const url = `mailto:jhmeel02@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(enquiry)}`;
+    const url = `mailto:clementadebola54@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(enquiry)}`;
     window.open(url, '_blank');
     setSubject('');
     setEnquiry('');
@@ -49,7 +49,7 @@ const HireMe = () => {
           </button>
         </div>
         <div className="contact-options">
-          <div className="contact-option" onClick={() => window.open("mailto:jhmeel02@gmail.com", "_blank")}>
+          <div className="contact-option" onClick={() => window.open("mailto:clementadebola54@gmail.com", "_blank")}>
             <div className="contact-icon email-icon"><MdOutlineEmail /></div>
             <span>Email</span>
           </div>
@@ -57,7 +57,7 @@ const HireMe = () => {
             <div className="contact-icon messenger-icon"><RiMessengerLine /></div>
             <span>Messenger</span>
           </div>
-          <div className="contact-option" onClick={() => window.open("https://wa.me/+2348081434636", "_blank")}>
+          <div className="contact-option" onClick={() => window.open("https://wa.me/+2348139621601", "_blank")}>
             <div className="contact-icon whatsapp-icon"><BsWhatsapp /></div>
             <span>WhatsApp</span>
           </div>
