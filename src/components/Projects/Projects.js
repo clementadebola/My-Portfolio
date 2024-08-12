@@ -2,13 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import microlens from '../../Assets/Projects/microlens.png'
 import youtube from '../../Assets/Projects/youtube.png';
+import umzrm from '../../Assets/Projects/umzrm.png'
+import butler from '../../Assets/Projects/butler.png'
 
 function Projects() {
   return (
@@ -33,14 +31,38 @@ function Projects() {
             />
           </Col>
 
+          
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={microlens}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="MicroLens"
+              description="Microlens is a progressive web app powerd by Gemini AI built for everyone, from healthcare providers to everyday users, bringing accurate diagnosis and health education right to your fingertips."
+              ghLink="https://github.com/jhmeel/microlens"
+              demoLink="https://microlens-sf5r.onrender.com/"              
+            />
+          </Col>
+
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={butler}
+              isBlog={false}
+              title="Butler"
+              description="Butler is a startup landing page i built,it offers home cleaning, laundry service, and food preparation."
+              ghLink="#"
+              demoLink="https://develop.d5rp29qz4fsyd.amplifyapp.com/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={umzrm}
+              isBlog={false}
+              title="UMZRM"
+              description="UMZRM Website"
+              ghLink="#"
+              demoLink="https://umzrm.netlify.app/"              
             />
           </Col>
 
@@ -54,6 +76,7 @@ function Projects() {
               demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
+
 
        
         </Row>
