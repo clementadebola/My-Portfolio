@@ -7,6 +7,7 @@ import microlens from '../../Assets/Projects/microlens.png'
 import youtube from '../../Assets/Projects/youtube.png';
 import umzrm from '../../Assets/Projects/umzrm.png'
 import butler from '../../Assets/Projects/butler.png'
+import hrsite from '../../Assets/Projects/hrsite.png'
 
 function Projects() {
   return (
@@ -68,11 +69,22 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={hrsite}
+              isBlog={false}
+              title="HRSITE"
+              description="Human resource website(HR)"
+              ghLink="https://github.com/clementadebola/HRSite"
+              demoLink="https://hrservicesite.netlify.app/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={editor}
               isBlog={false}
               title="Editor.io"
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              ghLink="#"
               demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
